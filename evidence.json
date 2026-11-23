@@ -1,0 +1,28 @@
+{
+  "slug": "g-a-pizzeria",
+  "card": "t_0e8cb9b4",
+  "dispatch_reverify": {
+    "ran_at_utc": "2026-11-23T18:2xZ (see run.log)",
+    "variant_matrix_dig": "gapizzeria/.net/.org/.shop/.co/.us + gapizzeriawyomissing.com + g-and-a-pizzeria/.net + gandaristopizzeria.com + thegapizzeria.com + gandalongo.com -> ALL empty A/NS @1.1.1.1 (re-run at dispatch: all still empty)",
+    "rdap_com": "gapizzeria.com 404, gapizzeriawyomissing.com 404, gandalongo.com 404 = unregistered",
+    "gapizza_com_identity": "gapizza.com resolves but identity scan => 'General Assembly Pizza' Philly homonym; zero Wyomissing/Berks/Longo hits — NOT G&A Pizzeria",
+    "ninospizzawyomissing_com": "prior tenant (Nino's, closed 2026-10-20) — homonym, not G&A site",
+    "maps_embed": "name query 'G&A Pizzeria' Wyomissing -> shell no placeid (no GBP listing); website-field check N/A",
+    "brand_serp_dispatch": "['G&A Pizzeria' Wyomissing / +website/facebook/instagram] -> press only (berkscountyeats coming-soon), NO own-brand domain",
+    "parent_domain": "stefanolegacy.com live (owner's own site; pitch target domain)"
+  },
+  "registry_dedup": "norm name g&pizzeria + norm email infostefanolegacycom -> 0 rows (pitch-cap 0; stefanolegacy domain never sent to)",
+  "verified_facts_sources": {
+    "name_address_opening": "berkscountyeats.com/news/coming-soon/ 2026-11-21 (G&A registered to 840 N Park Rd Nov 2026; registrant Gianluca Longo, chef/owner Stefano's; no connection to former GNA West Reading)",
+    "stefanos_teaser": "Stefano's social (facebook.com/152598301152433) post: Gianluca + Coming Soon sign, 'November 2026', former Nino's Pizza & Pasta (fetched logged-in 2026-11-23)",
+    "ninos_close": "berkscountyeats (prior tenant closed 2026-10-20 after 48 yrs)",
+    "owner_email": "info@stefanolegacy.com self-published https://stefanolegacy.com/contact",
+    "omitted_unverified": "menu items, hours, phone, prices, exact opening day"
+  },
+  "build_gates": {
+    "_verify.py": "PASS fail=[] warn=[] pages=10 max_page_weight_kb=16.8 titles_unique=true sitemap_all_core=true noindex=all",
+    "server_js": "node vm parse OK",
+    "make_og": "1200x630 og.png written"
+  },
+  "deploy": {"status": "pending-railway"}
+}
