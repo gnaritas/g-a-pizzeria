@@ -79,7 +79,7 @@ bd.text((bw // 2 + 12, bh // 2 + 12 - 14), "C O M I N G", font=sans(20), fill=(2
 bd.text((bw // 2 + 12, bh // 2 + 12 + 12), "S O O N", font=sans(30), fill=(247, 241, 228, 255), anchor="mm")
 badge = badge.rotate(-2.5, expand=True, resample=Image.BICUBIC)
 bw2, bh2 = badge.size
-img.paste(badge, (tx + 2, 566), badge.convert("RGBA"))
+img.paste(badge, (888, 462), badge.convert("RGBA"))
 
 img.save(OUT, "PNG", optimize=True)
 print("wrote", OUT, img.size, os.path.getsize(OUT), "bytes")
